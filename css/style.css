@@ -274,6 +274,31 @@ section{
 /* FIM LOGIN-FORM */
 
 
+ /* COMEÇO SECTION INICIO  */
+
+ /* .inicio{
+
+ } */
+
+ .inicio .banner{
+    display: flex;
+    align-items: center;
+ }
+
+ .inicio .banner .conteudo{
+    flex: 1 1 42rem;
+ }
+
+ .inicio .banner .banner-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+ }
+
+
+
+ /* FINAL SECTION INICIO  */
+
 
 
 
