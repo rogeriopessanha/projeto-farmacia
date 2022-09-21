@@ -32,31 +32,19 @@ window.onscroll = () => {
 
 
 
-var swiper = new Swiper(".featured-slider", {
-    spaceBetween: 10,
-    loop: true,
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
     centeredSlides: true,
-    grabCursor: 'true',
     autoplay: {
-        delay: 6500,
+        delay: 2000,
         disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        450: {
-            slidesPerView: 2,
-        },
-        768: {
-            slidesPerView: 3,
-        },
-        1024: {
-            slidesPerView: 4,
-        },
     },
 });
