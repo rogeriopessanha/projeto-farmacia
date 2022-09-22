@@ -332,6 +332,7 @@ section{
     overflow: hidden;
     border: var(--border);
     text-align: center;
+    
  }
 
  .produtos .produtos-slider .box:hover{
@@ -366,7 +367,7 @@ section{
  }
 
  .produtos .produtos-slider .box .conteudo h3{
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding: .5rem;
  }
 
