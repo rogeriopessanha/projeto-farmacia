@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Sriracha&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Sriracha&display=swap'); */
 
 :root{
 
@@ -7,12 +7,12 @@
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 
     
-    /* --cor1: #89ABD9;
+    --cor1: #89ABD9;
     --cor2: #3D90D9;
     --cor3: #2A6BBF;
     --cor4: #155FBF;
     --cor5: #736555;
-    --cor6: #444; */
+    --cor6: #444;
 
     /* --cor1: #6D0000;
     --cor2: #8D0000;
@@ -41,13 +41,14 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar{
     width: 1rem;
+    
 }
 
 html::-webkit-scrollbar-track{
@@ -82,7 +83,7 @@ section{
 
 .topo .topo-1{
     background: #fff;
-    padding:1.5rem;
+    padding:1.5rem 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,7 +101,7 @@ section{
 }
 
 .topo .topo-1 .form-pesquisa{
-    width: 40rem;
+    width: 60rem;
     height: 4rem;
     border: var(--border);
     overflow: hidden;
@@ -119,11 +120,14 @@ section{
     color: var(--cor6);
 }
 
+
+
 .topo .topo-1 .form-pesquisa label{
     font-size: 2rem;
     padding-right: 1.5rem;
     color: var(--cor6);
     cursor: pointer;
+    
 }
 
 .topo .topo-1 .form-pesquisa label:hover{
@@ -143,7 +147,7 @@ section{
     color: var(--cor2);
 }
 
-.botao-pesquisar{
+#botao-pesquisar{
     display: none;
 }
 /* FIM TOPO-1 */
@@ -296,24 +300,125 @@ section{
 
  } */
 
- .inicio .banner{
+ /* .inicio{
+    background-color: red;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 100%;
+ } */
+
+ /* .inicio .banner-slider{
+    display: flex;
+    width: 100%;
+ } */
+
+ .banner-slider img{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
  }
-
- .inicio .banner .conteudo{
-    flex: 1 1 42rem;
- }
-
- .inicio .banner .banner-slider{
-    flex: 1 1 42rem;
-    text-align: center;
-    margin-top: 2rem;
- }
-
-
 
  /* FINAL SECTION INICIO  */
+
+
+
+ /* COMEÇO SECTION PRODUTOS  */
+
+ .produtos .produtos-slider .box{
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border);
+    text-align: center;
+ }
+
+ .produtos .produtos-slider .box:hover{
+    border: var(--border-hover);
+ }
+
+ .produtos .produtos-slider .box .image{
+    padding: 1rem;
+    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+ }
+
+ .produtos .produtos-slider .box:hover .image{
+    transform: translateY(6rem);
+ }
+
+ .produtos .produtos-slider .box .image img{
+    height: 18rem;
+ }
+
+
+ .produtos .produtos-slider .box .icons{
+    border-bottom: var(--border-hover);
+    position: relative;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    z-index: 1;
+    transform: translateY(-105%);
+ }
+
+ .produtos .produtos-slider .box:hover .icons{
+    transform: translateY(-0%);
+ }
+
+ .produtos .produtos-slider .box .icons a{
+    color: var(--cor6);
+    font-size: 2.2rem;
+    padding: 1rem 1.5rem;
+ }
+
+ .produtos .produtos-slider .box .icons a:hover{
+    background: var(--cor3);
+    color: #fff;
+ }
+
+ .produtos .produtos-slider .box .conteudo{
+    background: #eee;
+    padding: 2.5rem;
+ }
+
+ .produtos .produtos-slider .box .conteudo .preco{
+    font-size: 2.2rem;
+    color: var(--cor6);
+    padding-top: 1rem;
+ }
+
+
+ .produtos .produtos-slider .box .icons{
+    border-bottom: var(--border-hover);
+    position: absolute;
+    top: 2rem; left: 62rem;
+    z-index: 1;
+ }
+
+ .swiper-button-next,
+.swiper-button-prev{
+    border: var(--border-hover);
+    height: 4rem;
+    width: 4rem;
+    color: var(--cor6);
+    background: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background: var(--cor2);
+    color: #fff;
+}
+
+ /* FINAL SECTION PRODUTOS  */
+
+
+
 
 
 
@@ -335,6 +440,7 @@ section{
 
 /* MEDIA QUERIES */
 
+
 @media (max-width: 991px){
     html{
         font-size: 55%;
@@ -349,6 +455,7 @@ section{
     }
 }
 
+
 @media (max-width: 768px){
     html{
         scroll-padding-top: 0;
@@ -357,6 +464,10 @@ section{
     body{
         padding-bottom: 6rem;
     }
+
+    /* .topo .topo-1 .form-pesquisa{
+        width: 30rem;
+    } */
 
     .topo .topo-2{
         display: none;
@@ -384,15 +495,44 @@ section{
 
     .topo .topo-1 .form-pesquisa.active{
         top: 115%;
+        right: 20rem;
+        width: 50rem;
     }
 
+    .inicio .banner-slider{
+        display: flex;
+        width: 100%;
+        padding-top: 4rem;
+        
+     }
+
+     .banner-slider img{
+        width: 100%;
+        height: 25rem;
+        display: flex;
+     }
 
 }
 
 
-@media (max-width: 450px){
+@media (max-width: 550px){
 
     html{
         font-size: 50%;
     }
+
+    .topo .topo-1 .form-pesquisa.active{
+        top: 115%;
+        right: 10rem;
+        width: 40rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner-slider img{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+    
+}
 }
