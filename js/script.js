@@ -59,7 +59,7 @@ var swiper = new Swiper(".banner-slider", {
 
 
 var swiper = new Swiper(".produtos-slider", {
-    spaceBetween: 10,
+    spaceBetween: 15,
     loop: true,
     centeredSlides: true,
     // grabCursor: 'true',
@@ -72,6 +72,9 @@ var swiper = new Swiper(".produtos-slider", {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
+        0: {
+            slidesPerView: 2,
+        },
         
         450: {
             slidesPerView: 3,
@@ -80,7 +83,7 @@ var swiper = new Swiper(".produtos-slider", {
             slidesPerView: 4,
         },
         1024: {
-            slidesPerView: 4,
+            slidesPerView: 5,
         },
     },
 });
