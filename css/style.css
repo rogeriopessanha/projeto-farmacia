@@ -393,6 +393,10 @@ img {
     background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
 }
 
+.produtos .produtos-slider .box:hover .image{
+    transform: translateY(2.6rem);
+}
+
 .produtos .produtos-slider .box .image img {
     height: 15rem;
 }
@@ -511,6 +515,10 @@ img {
     background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
 }
 
+.ofertas .ofertas-slider .box:hover .image{
+    transform: translateY(2.6rem);
+}
+
 .ofertas .ofertas-slider .box .image img {
     height: 15rem;
 }
@@ -536,13 +544,31 @@ img {
 
 .ofertas .ofertas-slider .box .conteudo h3 {
     font-size: 2rem;
-    padding: .5rem;
+    color: var(--cor6);
+    /* padding: .5rem; */
 }
 
 .ofertas .ofertas-slider .box .conteudo .preco {
     font-size: 2rem;
     color: var(--cor6);
     padding-top: 1rem;
+}
+
+.ofertas .ofertas-slider .box .conteudo .preco span{
+    font-size: 1.5rem;
+    color: var(--cor6);
+    text-decoration: line-through;
+}
+
+.desconto{
+    position: absolute;
+    background: var(--cor4);
+    color: #fff;
+    padding: .60rem;
+    border-radius: .5rem;
+    left: .20rem;
+    top: 1rem;
+    
 }
 
 
