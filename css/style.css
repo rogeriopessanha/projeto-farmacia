@@ -491,6 +491,85 @@ img {
 
 
 
+/* COMEÇO SECTION OFERTAS  */
+
+.ofertas .ofertas-slider .box {
+    margin: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    border: var(--border-hover);
+    text-align: center;
+}
+
+.ofertas .ofertas-slider .box:hover {
+    border: var(--border);
+    
+}
+
+.ofertas .ofertas-slider .box .image {
+    padding: 1rem;
+    background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
+}
+
+.ofertas .ofertas-slider .box .image img {
+    height: 15rem;
+}
+
+.ofertas .ofertas-slider .box .icons a {
+    color: var(--cor4);
+    font-size: 2.4rem;
+    padding: .1rem;
+    position: absolute;
+    right: .1rem;
+}
+
+.ofertas .ofertas-slider .box .icons a:hover {
+    background: var(#fff);
+    color: var(--cor1);
+    border: var(--border-hover);
+}
+
+.ofertas .ofertas-slider .box .conteudo {
+    background: #eee;
+    padding: 2.5rem;
+}
+
+.ofertas .ofertas-slider .box .conteudo h3 {
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.ofertas .ofertas-slider .box .conteudo .preco {
+    font-size: 2rem;
+    color: var(--cor6);
+    padding-top: 1rem;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    border: var(--border-hover);
+    height: 4rem;
+    width: 4rem;
+    color: var(--cor6);
+    background: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: var(--cor2);
+    color: #fff;
+}
+
+/* FINAL SECTION OFERTAS  */
+
+
+
 
 
 

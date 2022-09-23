@@ -87,3 +87,35 @@ var swiper = new Swiper(".produtos-slider", {
         },
     },
 });
+
+
+
+var swiper = new Swiper(".ofertas-slider", {
+    spaceBetween: 15,
+    loop: true,
+    centeredSlides: true,
+    // grabCursor: 'true',
+    autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 2,
+        },
+        
+        450: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
+    },
+});
