@@ -62,7 +62,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 section {
-    padding: 5rem 9%;
+    padding: 7rem 9%;
+    margin: 1rem;
 }
 
 .titulo {
@@ -595,9 +596,24 @@ img {
 /* FINAL SECTION OFERTAS  */
 
 
-.marcas-container{
+
+
+.marcas{
     background-color: rgb(226, 222, 222);
 }
+
+.marcas .marcas-slider .box .image img {
+    height: 10rem;
+}
+
+.marcas .titulo span {
+    font-size: 3rem;
+    color: var(--cor6);
+    padding: .5rem 2rem;
+    background: rgb(226, 222, 222);
+}
+
+
 
 
 
