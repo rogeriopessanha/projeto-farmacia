@@ -47,14 +47,7 @@ var swiper = new Swiper(".banner-slider", {
         delay: 5000,
         disableOnInteraction: false,
     },
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    // },
-    // navigation: {
-    //     nextEl: ".swiper-button-next",
-    //     prevEl: ".swiper-button-prev",
-    // },
+   
 });
 
 
@@ -73,7 +66,7 @@ var swiper = new Swiper(".produtos-slider", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 2,
+            slidesPerView: 1,
         },
         
         400: {
@@ -130,10 +123,10 @@ var swiper = new Swiper(".marcas-slider", {
         delay: 6500,
         disableOnInteraction: false,
     },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
+    // navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    // },
     breakpoints: {
         0: {
             slidesPerView: 3,

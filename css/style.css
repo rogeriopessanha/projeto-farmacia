@@ -380,12 +380,14 @@ img {
     margin: 1rem 0;
     position: relative;
     overflow: hidden;
-    border: var(--border-hover);
+    /* border: var(--border-hover); */
     text-align: center;
 }
 
 .produtos .produtos-slider .box:hover {
     border: var(--border);
+    padding-top: 2rem;
+    
     
 }
 
@@ -596,7 +598,7 @@ img {
 /* FINAL SECTION OFERTAS  */
 
 
-
+/* COMEÇO SECTION MARCAS  */
 
 .marcas{
     background-color: rgb(226, 222, 222);
@@ -613,6 +615,94 @@ img {
     background: rgb(226, 222, 222);
 }
 
+/* FINAL SECTION MARCAS  */
+
+
+
+/* COMEÇO SECTION FOOTER  */
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: var(--cor6);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color: var(--cor1);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    color: var(--cor3);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box-pagamento h3{
+    font-size: 2.2rem;
+    color: var(--cor6);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box-pagamento i{
+    font-size: 2.2rem;
+    color: var(--cor3);
+    padding-right: 2.5rem;
+}
+
+.footer .redes-social h3{
+    font-size: 2.2rem;
+    color: var(--cor6);
+    padding: 3rem 0;
+}
+
+.footer .redes-social{
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.footer .redes-social a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--cor3);
+    margin: 0 .3rem;
+    border-radius: 50%;
+}
+
+.footer .redes-social a:hover{
+    background: var(--cor6);
+}
+
+.footer .creditos{
+    border-top: var(--border);
+    margin-top: 2rem;
+    padding: 0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: var(--cor1);
+    text-align: center;
+}
+
+.footer .creditos span{
+    color: var(--cor3);
+}
+
+
+/* FINAL SECTION FOOTER  */
 
 
 
@@ -741,4 +831,20 @@ img {
         margin-top: 6rem;
 
     }
+
+    .footer .redes-social{
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .footer .creditos{
+        border-top: var(--border);
+        /* margin-top: 1rem; */
+        /* padding: 0 5rem; */
+        padding-top: 1.5rem;
+        font-size: 1.2rem;
+        color: var(--cor1);
+        text-align: center;
+    }
+
 }
