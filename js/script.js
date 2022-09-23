@@ -123,12 +123,11 @@ var swiper = new Swiper(".ofertas-slider", {
 
 
 var swiper = new Swiper(".marcas-slider", {
-    spaceBetween: 15,
     loop: true,
     centeredSlides: true,
     // grabCursor: 'true',
     autoplay: {
-        delay: 6500,
+        delay: 9500,
         disableOnInteraction: false,
     },
     navigation: {
@@ -137,14 +136,14 @@ var swiper = new Swiper(".marcas-slider", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 4,
+            slidesPerView: 3,
         },
         
         450: {
-            slidesPerView: 4,
+            slidesPerView: 3,
         },
         768: {
-            slidesPerView: 4,
+            slidesPerView: 5,
         },
         1024: {
             slidesPerView: 5,
