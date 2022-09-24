@@ -95,6 +95,20 @@ section {
     background: var(--cor4);
 }
 
+
+.inicio{
+    /* background: var(--cor4); */
+}
+
+.banner-slider img {
+    width: 100%;
+    height: 100%;
+    padding-right: 4.5rem;
+    margin-top: 1.5rem;
+    height: 45vh;
+   
+}
+
 /* INICIO BARRA DE MENU */
 
 
@@ -119,7 +133,7 @@ section {
 }
 
 .topo .topo-1 .form-pesquisa {
-    width: 48rem;
+    width: 50rem;
     height: 5rem;
     border: var(--border);
     overflow: hidden;
@@ -127,6 +141,7 @@ section {
     display: flex;
     align-items: center;
     border-radius: .5rem;
+    /* background-color: green; */
 }
 
 .topo .topo-1 .form-pesquisa input {
@@ -136,15 +151,15 @@ section {
     width: 100%;
     text-transform: none;
     color: var(--cor6);
+    /* background-color: red; */
 }
-
-
 
 .topo .topo-1 .form-pesquisa label {
     font-size: 2rem;
     padding-right: 1.5rem;
     color: var(--cor6);
     cursor: pointer;
+    /* background-color: blue; */
 
 }
 
@@ -153,12 +168,14 @@ section {
 }
 
 .topo .topo-1 .icons div,
-.topo .topo-1 .icons a,
-img {
-    font-size: 2rem;
+.topo .topo-1 .icons a{
+
+    font-size: 2.5rem;
     margin-left: 1.5rem;
     color: var(--cor6);
     cursor: pointer;
+
+
 }
 
 .topo .topo-1 .icons div:hover,
@@ -323,17 +340,7 @@ img {
 /* FIM LOGIN-FORM */
 
 
-.inicio{
-    background: var(--cor4);
-}
 
-.banner-slider img {
-    width: 100vw;
-    padding-right: 4.5rem;
-    margin-top: 1.5rem;
-    height: 45vh;
-   
-}
 
 /* FINAL SECTION INICIO  */
 
@@ -771,7 +778,7 @@ img {
 
     .banner-slider img {
         width: 100%;
-        height: 30rem;
+        height: 100%;
         margin-top: 2rem;
         
     }
@@ -797,40 +804,43 @@ img {
         display: block;
     }
 
+   
     #botao-pesquisar {
         display: inline-block;
     }
 
+ 
     .topo .topo-1 {
         box-shadow: var(--box-shadow);
         position: relative;
     }
 
+  
     .topo .topo-1 .form-pesquisa {
         position: absolute;
-        top: -115%;
-        right: 2rem;
-        width: 70%;
+        top: -115%; right: 2rem;
+        width: 90%;
         box-shadow: var(--box-shadow);
     }
 
-    .topo .topo-1 .form-pesquisa.active {
+
+    .topo .topo-1 .form-pesquisa.active{
         top: 115%;
-        left: 0;
-        width: 100%;
+        /* left: 0;
+        width: 60%; */
     }
 
     .inicio .banner-slider {
         display: flex;
         width: 100%;
-        padding-top: 4rem;
+        padding-top: 2rem;
 
     }
 
     .banner-slider img {
         width: 100%;
-        height: 25rem;
-        margin-top: 6rem;
+        height: 100%;;
+        margin-top: 2rem;
     }
 
 }
@@ -845,13 +855,13 @@ img {
     .topo .topo-1 .form-pesquisa.active {
         top: 115%;
         left: 0;
-        width: 100%;
+        width: 80%;
     }
 
     .banner-slider img {
         width: 100%;
-        height: 20rem;
-        margin-top: 6rem;
+        height: 100%;
+        margin-top: 2rem;
 
     }
 
@@ -862,8 +872,8 @@ img {
 
     .footer .creditos{
         border-top: var(--border);
-        /* margin-top: 1rem; */
-        /* padding: 0 5rem; */
+        margin-top: 1rem;
+        padding: 0 5rem;
         padding-top: 1.5rem;
         font-size: 1.2rem;
         color: var(--cor1);

@@ -1,7 +1,8 @@
 
+
 pesquisaForm = document.querySelector('.form-pesquisa');
 
-document.querySelector('#botao-pesquisar').onclick =() =>{
+document.querySelector('#botao-pesquisar').onclick = () => {
     pesquisaForm.classList.toggle('active');
 }
 
