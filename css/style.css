@@ -7,24 +7,44 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 
 
-    --cor1: #89ABD9;
-    --cor2: #3D90D9;
-    --cor3: #2A6BBF;
-    --cor4: #155FBF;
-    --cor5: #736555;
-    --cor6: #444;
+    --cor: #89ABD9;
+    --cor: #3D90D9;
+    --cor: #2A6BBF;
+    --cor: #155FBF;
+    --cor: #736555;
+    --cor: #444;
 
-    /* --cor1: #6D0000;
-    --cor2: #8D0000;
-    --cor3: #E6E6E6;
-    --cor4: #4F4F4F;
-    --cor5: #080409; */
+    --cor2: #c30303;
+    --cor: #df2d2d;
+    --cor: #E6E6E6;
+    --cor: #4F4F4F;
+    --cor: #080409;
 
-    /* --cor1: #AEEBF2;
-    --cor2: #99D0F2;
-    --cor3: #46658C;
-    --cor4: #021140;
-    --cor5: #010326; */
+    --cor: #AEEBF2;
+    --cor: #99D0F2;
+    --cor: #46658C;
+    --cor: #021140;
+    --cor: #010326;
+
+    --cor: #BF0426;
+    --cor: #e23a3a;
+    --cor: #011C40;
+    --cor: #023E73;
+    --cor: #0D0D0D;
+
+
+    --cor: #91F2E9;
+    --cor: #415AA6;
+    --cor: #223059;
+    --cor: #354B8C;
+    --cor: #F21667;
+
+    /* --cor2: #3E95FA; */
+    --cor: #2855DB;
+    --cor: #171AF5;
+    --cor: #DB5F18;
+    --cor4: #FA4700;
+
 
 }
 
@@ -97,7 +117,7 @@ section {
 
 
 .inicio{
-    /* background: var(--cor4); */
+    background: url(../imagens/);
 }
 
 .banner-slider img {
