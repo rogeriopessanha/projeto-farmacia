@@ -7,28 +7,26 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 
 
-    --cor1: #080409;
-    --cor6: #223059;
-    --cor4: #BF0426;
-    --cor2: #011C40;
-    --cor3: #021140;
+    /* --cor: #080409;
+    --cor: #223059;
+    --cor: #BF0426;
+    --cor: #011C40;
+    --cor: #021140;
     
-    /* --cor: #c30303;
+    --cor: #c30303;
     --cor: #89ABD9;
     --cor: #3D90D9;
     --cor: #2A6BBF;
     --cor: #155FBF;
     --cor: #736555;
     --cor: #444;
-    --cor: #df2d2d;
+    --cor4: #772ddf;
     --cor: #E6E6E6;
     --cor: #4F4F4F;
     --cor: #AEEBF2;
     --cor: #99D0F2;
-    --cor: #46658C;
     --cor: #010326;
     --cor: #BF0426;
-    --cor: #e23a3a;
     --cor: #011C40;
     --cor: #023E73;
     --cor: #0D0D0D;
@@ -38,10 +36,20 @@
     --cor: #F21667;
     --cor: #3E95FA;
     --cor: #2855DB;
-    --cor: #171AF5;
+    --cor: #22040f;
     --cor: #DB5F18;
     --cor: #FA4700; */
+    
+    --cinza: #626262;
+    --preto: #000000;
+    --roxo1: #7800db;
+    
 
+    /* cor principal do site */
+    --roxo: #8225ce;
+
+    /* cor do hover */
+    --azul: #1c61d7;
 
 }
 
@@ -75,7 +83,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: var(--cor6);
+    background: var(--cinza);
 }
 
 section {
@@ -91,7 +99,7 @@ section {
 
 .titulo span {
     font-size: 3rem;
-    color: var(--cor6);
+    color: var(--preto);
     padding: .5rem 2rem;
     background: #fff;
 }
@@ -102,14 +110,14 @@ section {
     padding: .9rem 3rem;
     border-radius: .5rem;
     color: #fff;
-    background: var(--cor3);
+    background: var(--roxo);
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
 }
 
 .btn:hover {
-    background: var(--cor4);
+    background: var(--azul);
 }
 
 
@@ -141,11 +149,11 @@ section {
 .topo .topo-1 .logo {
     font-size: 2.2rem;
     font-weight: bolder;
-    color: var(--cor6);
+    color: var(--azul);
 }
 
 .topo .topo-1 .logo i {
-    color: var(--cor4);
+    color: var(--roxo1);
     font-size: 2.2rem;
 }
 
@@ -158,7 +166,6 @@ section {
     display: flex;
     align-items: center;
     border-radius: .5rem;
-    /* background-color: green; */
 }
 
 .topo .topo-1 .form-pesquisa input {
@@ -167,21 +174,18 @@ section {
     height: 100%;
     width: 100%;
     text-transform: none;
-    color: var(--cor6);
-    /* background-color: red; */
+    color: var(--preto);
 }
 
 .topo .topo-1 .form-pesquisa label {
-    font-size: 2rem;
+    font-size: 3rem;
     padding-right: 1.5rem;
-    color: var(--cor6);
+    color: var(--roxo);
     cursor: pointer;
-    /* background-color: blue; */
-
 }
 
 .topo .topo-1 .form-pesquisa label:hover {
-    color: var(--cor2);
+    color: var(--azul);
 }
 
 .topo .topo-1 .icons div,
@@ -189,7 +193,7 @@ section {
 
     font-size: 2.5rem;
     margin-left: 1.5rem;
-    color: var(--cor6);
+    color: var(--roxo);
     cursor: pointer;
 
 
@@ -197,7 +201,7 @@ section {
 
 .topo .topo-1 .icons div:hover,
 .topo .topo-1 .icons a:hover {
-    color: var(--cor2);
+    color: var(--azul);
 }
 
 #botao-pesquisar {
@@ -210,7 +214,7 @@ section {
 /* INICIO TOPO-2 */
 
 .topo .topo-2 {
-    background: var(--cor4);
+    background: var(--roxo);
 }
 
 .topo .topo-2 .menu-nav {
@@ -225,7 +229,8 @@ section {
 }
 
 .topo .topo-2 .menu-nav a:hover {
-    background: var(--cor2);
+    background: var(--azul);
+    
 }
 
 .topo .topo-2 .active {
@@ -241,7 +246,7 @@ section {
 /* INICIO BARRA-MENU */
 .barra-menu {
     text-align: center;
-    background: var(--cor2);
+    background: var(--roxo);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -257,7 +262,7 @@ section {
 }
 
 .barra-menu a:hover {
-    background: var(--cor4);
+    background: var(--azul);
 }
 
 /* FIM BARRA-MENU */
@@ -294,7 +299,7 @@ section {
 .login-form-container form h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
-    color: var(--cor6);
+    color: var(--roxo);
     text-align: center;
 }
 
@@ -311,7 +316,7 @@ section {
     border: var(--border);
     border-radius: 5rem;
     padding: 1rem 1.2rem;
-    color: var(--cor6);
+    color: var(--preto);
     text-transform: none;
 }
 
@@ -324,7 +329,7 @@ section {
 
 .login-form-container form .checkbox label {
     font-size: 1.5rem;
-    color: var(--cor6);
+    color: var(--preto);
     cursor: pointer;
 }
 
@@ -336,12 +341,12 @@ section {
 
 .login-form-container form p {
     padding-top: 2.5rem;
-    color: var(--cor6);
+    color: var(--preto);
     font-size: 1.5rem;
 }
 
 .login-form-container form p a {
-    color: var(--cor6);
+    color: var(--preto);
     text-decoration: underline;
 }
 
@@ -350,7 +355,7 @@ section {
     top: 1.5rem;
     right: 2.5rem;
     font-size: 5rem;
-    color: var(--cor6);
+    color: var(--preto);
     cursor: pointer;
 }
 
@@ -380,18 +385,18 @@ section {
 
 .icons-container .icons i {
     font-size: 3.5rem;
-    color: var(--cor4);
+    color: var(--roxo);
 }
 
 .icons-container .icons h3 {
     font-size: 2.2rem;
-    color: var(--cor6);
+    color: var(--azul);
     padding-bottom: .5rem;
 }
 
 .icons-container .icons p {
     font-size: 1.4rem;
-    color: var(--cor5);
+    color: var(--preto);
 }
 
 /* FINAL SECTION ICONS */
@@ -638,8 +643,92 @@ section {
     padding: .5rem 2rem;
     background: rgb(226, 222, 222);
 }
-
 /* FINAL SECTION MARCAS  */
+
+
+
+/* COMEÇO SECTION PRODUTOS  */
+
+.novidades .novidades-slider .box {
+    margin: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    /* border: var(--border-hover); */
+    text-align: center;
+}
+
+.novidades .novidades-slider .box:hover {
+    border: var(--border);
+    padding-top: 2rem;
+    
+    
+}
+
+.novidades .novidades-slider .box .image {
+    padding: 1rem;
+    background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
+}
+
+.novidades .novidades-slider .box:hover .image{
+    transform: translateY(2.6rem);
+}
+
+.novidades .novidades-slider .box .image img {
+    height: 15rem;
+}
+
+.novidades .novidades-slider .box .icons a {
+    color: var(--cor4);
+    font-size: 2.4rem;
+    padding: .1rem;
+    position: absolute;
+    right: .1rem;
+}
+
+.novidades .novidades-slider .box .icons a:hover {
+    background: var(#fff);
+    color: var(--cor1);
+    border: var(--border-hover);
+}
+
+.novidades .novidades-slider .box .conteudo {
+    background: #eee;
+    padding: 2.5rem;
+}
+
+.novidades .novidades-slider .box .conteudo h3 {
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.novidades .novidades-slider .box .conteudo .preco {
+    font-size: 2rem;
+    color: var(--cor6);
+    padding-top: 1rem;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    border: var(--border-hover);
+    height: 4rem;
+    width: 4rem;
+    color: var(--cor6);
+    background: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: var(--cor2);
+    color: #fff;
+}
+
+/* FINAL SECTION PRODUTOS  */
 
 
 
@@ -684,6 +773,8 @@ section {
     color: var(--cor3);
     padding-right: 2.5rem;
 }
+
+
 
 .footer .redes-social h3{
     font-size: 2.2rem;

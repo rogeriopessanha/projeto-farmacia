@@ -46,7 +46,7 @@ function loader(){
 }
 
 function fadeOut(){
-    setTimeout(loader, 1000);
+    setTimeout(loader, 100);
 }
 
 
@@ -160,3 +160,32 @@ var swiper = new Swiper(".marcas-slider", {
 });
 
 
+var swiper = new Swiper(".novidades-slider", {
+    spaceBetween: 15,
+    loop: true,
+    centeredSlides: true,
+    // grabCursor: 'true',
+    autoplay: {
+        delay: 6500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        
+        400: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 4,
+        },
+    },
+});
