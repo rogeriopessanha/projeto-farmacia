@@ -409,15 +409,13 @@ section {
     margin: 1rem 0;
     position: relative;
     overflow: hidden;
-    /* border: var(--border-hover); */
     text-align: center;
+    background: var(--roxo);
 }
 
 .produtos .produtos-slider .box:hover {
     border: var(--border);
-    padding-top: 2rem;
-    
-    
+    transform: translateX(1rem);
 }
 
 .produtos .produtos-slider .box .image {
@@ -425,16 +423,14 @@ section {
     background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
 }
 
-.produtos .produtos-slider .box:hover .image{
-    transform: translateY(2.6rem);
-}
+
 
 .produtos .produtos-slider .box .image img {
     height: 15rem;
 }
 
 .produtos .produtos-slider .box .icons a {
-    color: var(--cor4);
+    color: var(--roxo);
     font-size: 2.4rem;
     padding: .1rem;
     position: absolute;
@@ -443,7 +439,7 @@ section {
 
 .produtos .produtos-slider .box .icons a:hover {
     background: var(#fff);
-    color: var(--cor1);
+    color: var(--azul);
     border: var(--border-hover);
 }
 
@@ -459,31 +455,31 @@ section {
 
 .produtos .produtos-slider .box .conteudo .preco {
     font-size: 2rem;
-    color: var(--cor6);
+    color: var(--preto);
     padding-top: 1rem;
 }
 
 
-.swiper-button-next,
-.swiper-button-prev {
+.produtos .produtos-slider .swiper-button-next,
+.produtos .produtos-slider .swiper-button-prev {
     border: var(--border-hover);
-    height: 4rem;
-    width: 4rem;
-    color: var(--cor6);
-    background: #fff;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    color: var(--roxo);
+    background: rgba(255, 255, 255, 0.203);
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    font-size: 2rem;
+.produtos .produtos-slider .swiper-button-next::after,
+.produtos .produtos-slider .swiper-button-prev::after {
+    font-size: 3.5rem;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    background: var(--cor2);
+.produtos .produtos-slider .swiper-button-next:hover,
+.produtos .produtos-slider .swiper-button-prev:hover {
+    background: var(--roxo);
     color: #fff;
 }
-
 /* FINAL SECTION PRODUTOS  */
 
 
@@ -507,7 +503,7 @@ section {
 
 .news form h3 {
     font-size: 2.2rem;
-    color: var(--cor6);
+    color: var(--preto);
     padding-bottom: 3rem;
     font-weight: 600;
 }
@@ -517,12 +513,10 @@ section {
     margin: .1rem 0;
     padding: 1rem 1.2rem;
     font-size: 1.6rem;
-    color: var(--cor6);
+    color: var(--preto);
     border-radius: .5rem;
     text-transform: none;
 }
-
-
 /* FINAL SECTION NEWS */
 
 
@@ -535,10 +529,12 @@ section {
     overflow: hidden;
     border: var(--border-hover);
     text-align: center;
+    background: var(--roxo);
 }
 
 .ofertas .ofertas-slider .box:hover {
     border: var(--border);
+    transform: translateX(1rem);
     
 }
 
@@ -547,16 +543,14 @@ section {
     background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
 }
 
-.ofertas .ofertas-slider .box:hover .image{
-    transform: translateY(2.6rem);
-}
+
 
 .ofertas .ofertas-slider .box .image img {
     height: 15rem;
 }
 
 .ofertas .ofertas-slider .box .icons a {
-    color: var(--cor4);
+    color: var(--roxo);
     font-size: 2.4rem;
     padding: .1rem;
     position: absolute;
@@ -565,7 +559,7 @@ section {
 
 .ofertas .ofertas-slider .box .icons a:hover {
     background: var(#fff);
-    color: var(--cor1);
+    color: var(--azul);
     border: var(--border-hover);
 }
 
@@ -576,26 +570,27 @@ section {
 
 .ofertas .ofertas-slider .box .conteudo h3 {
     font-size: 2rem;
-    color: var(--cor6);
+    color: var(--preto);
     /* padding: .5rem; */
 }
 
 .ofertas .ofertas-slider .box .conteudo .preco {
     font-size: 2rem;
-    color: var(--cor6);
+    color: var(--preto);
     padding-top: 1rem;
 }
 
 .ofertas .ofertas-slider .box .conteudo .preco span{
     font-size: 1.5rem;
-    color: var(--cor6);
+    color: var(--preto);
     text-decoration: line-through;
 }
 
 .desconto{
     position: absolute;
-    background: var(--cor4);
+    background: var(--roxo);
     color: #fff;
+    font-size: 1.7rem;
     padding: .60rem;
     border-radius: .5rem;
     left: .20rem;
@@ -604,23 +599,24 @@ section {
 }
 
 
-.swiper-button-next,
-.swiper-button-prev {
+.ofertas .ofertas-slider .swiper-button-next,
+.ofertas .ofertas-slider .swiper-button-prev {
     border: var(--border-hover);
-    height: 4rem;
-    width: 4rem;
-    color: var(--cor6);
-    background: #fff;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    color: var(--roxo);
+    background: rgba(255, 255, 255, 0.203);
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    font-size: 2rem;
+.ofertas .ofertas-slider .swiper-button-next::after,
+.ofertas .ofertas-slider .swiper-button-prev::after {
+    font-size: 3.5rem;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    background: var(--cor2);
+.ofertas .ofertas-slider .swiper-button-next:hover,
+.ofertas .ofertas-slider .swiper-button-prev:hover {
+    background: var(--roxo);
     color: #fff;
 }
 
@@ -634,12 +630,12 @@ section {
 }
 
 .marcas .marcas-slider .box .image img {
-    height: 10rem;
+    height: 15rem;
 }
 
 .marcas .titulo span {
     font-size: 3rem;
-    color: var(--cor6);
+    color: var(--roxo);
     padding: .5rem 2rem;
     background: rgb(226, 222, 222);
 }
@@ -653,15 +649,14 @@ section {
     margin: 1rem 0;
     position: relative;
     overflow: hidden;
-    /* border: var(--border-hover); */
+    border: var(--border-hover);
     text-align: center;
+    background: var(--roxo);
 }
 
 .novidades .novidades-slider .box:hover {
     border: var(--border);
-    padding-top: 2rem;
-    
-    
+    transform: translateX(1rem);
 }
 
 .novidades .novidades-slider .box .image {
@@ -669,16 +664,12 @@ section {
     background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
 }
 
-.novidades .novidades-slider .box:hover .image{
-    transform: translateY(2.6rem);
-}
-
 .novidades .novidades-slider .box .image img {
     height: 15rem;
 }
 
 .novidades .novidades-slider .box .icons a {
-    color: var(--cor4);
+    color: var(--roxo);
     font-size: 2.4rem;
     padding: .1rem;
     position: absolute;
@@ -687,7 +678,7 @@ section {
 
 .novidades .novidades-slider .box .icons a:hover {
     background: var(#fff);
-    color: var(--cor1);
+    color: var(--azul);
     border: var(--border-hover);
 }
 
@@ -698,33 +689,34 @@ section {
 
 .novidades .novidades-slider .box .conteudo h3 {
     font-size: 2rem;
-    padding: .5rem;
+    color: var(--preto);
 }
 
 .novidades .novidades-slider .box .conteudo .preco {
     font-size: 2rem;
-    color: var(--cor6);
+    color: var(--preto);
     padding-top: 1rem;
 }
 
 
-.swiper-button-next,
-.swiper-button-prev {
+.novidades .novidades-slider .swiper-button-next,
+.novidades .novidades-slider .swiper-button-prev {
     border: var(--border-hover);
-    height: 4rem;
-    width: 4rem;
-    color: var(--cor6);
-    background: #fff;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    color: var(--roxo);
+    background: rgba(255, 255, 255, 0.203);
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    font-size: 2rem;
+.novidades .novidades-slider .swiper-button-next::after,
+.novidades .novidades-slider .swiper-button-prev::after {
+    font-size: 3.5rem;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    background: var(--cor2);
+.novidades .novidades-slider .swiper-button-next:hover,
+.novidades .novidades-slider .swiper-button-prev:hover {
+    background: var(--roxo);
     color: #fff;
 }
 
@@ -742,19 +734,19 @@ section {
 
 .footer .box-container .box h3{
     font-size: 2.2rem;
-    color: var(--cor6);
+    color: var(--roxo);
     padding: 1rem 0;
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.4rem;
-    color: var(--cor1);
+    color: var(--roxo);
     padding: 1rem 0;
 }
 
 .footer .box-container .box a i{
-    color: var(--cor3);
+    color: var(--azul);
     padding-right: .5rem;
 }
 
@@ -764,13 +756,13 @@ section {
 
 .footer .box-container .box-pagamento h3{
     font-size: 2.2rem;
-    color: var(--cor6);
+    color: var(--roxo);
     padding: 1rem 0;
 }
 
 .footer .box-container .box-pagamento i{
     font-size: 2.2rem;
-    color: var(--cor3);
+    color: var(--azul);
     padding-right: 2.5rem;
 }
 
@@ -778,7 +770,7 @@ section {
 
 .footer .redes-social h3{
     font-size: 2.2rem;
-    color: var(--cor6);
+    color: var(--roxo);
     padding: 3rem 0;
 }
 
@@ -793,13 +785,13 @@ section {
     line-height: 5rem;
     font-size: 2rem;
     color: #fff;
-    background: var(--cor3);
+    background: var(--azul);
     margin: 0 .3rem;
     border-radius: 50%;
 }
 
 .footer .redes-social a:hover{
-    background: var(--cor6);
+    background: var(--roxo);
 }
 
 .footer .creditos{
@@ -808,12 +800,12 @@ section {
     padding: 0 1rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    color: var(--cor1);
+    color: var(--azul);
     text-align: center;
 }
 
 .footer .creditos span{
-    color: var(--cor3);
+    color: var(--roxo);
 }
 
 
@@ -949,6 +941,18 @@ section {
         width: 100%;
         height: 100%;;
         margin-top: 2rem;
+    }
+
+    .desconto{
+        position: absolute;
+        background: var(--roxo);
+        color: #fff;
+        font-size: 1.2rem;
+        padding: .60rem;
+        border-radius: .5rem;
+        left: .20rem;
+        top: 1rem;
+        
     }
 
 }

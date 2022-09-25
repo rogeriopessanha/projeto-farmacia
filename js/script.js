@@ -141,20 +141,20 @@ var swiper = new Swiper(".marcas-slider", {
     // },
     breakpoints: {
         0: {
-            slidesPerView: 3,
+            slidesPerView: 2,
         },
         
         450: {
             slidesPerView: 5,
         },
         768: {
-            slidesPerView: 7,
+            slidesPerView: 5,
         },
         1024: {
-            slidesPerView: 7,
+            slidesPerView: 5,
         },
         1440: {
-            slidesPerView: 9,
+            slidesPerView: 7,
         },
     },
 });
