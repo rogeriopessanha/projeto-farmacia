@@ -143,7 +143,7 @@ var swiper = new Swiper(".marcas-slider", {
         },
         
         450: {
-            slidesPerView: 5,
+            slidesPerView: 3,
         },
         768: {
             slidesPerView: 5,

@@ -8,16 +8,21 @@
 
 
     /* cor principal do site */
-    --principal: #3B6FD9;
+    --principal: #0e58ea;
+
 
     /* cor do secundaria do site */
     --secundaria: #19b0ec;
+
 
     /* cor do titulo site */
     --titulo: #000000;
 
     /* cor do subtitulo site */
     --subtitulo: #626262;
+
+    /* cor do icone topo */
+    --topo-icon: #e80808;
 
 }
 
@@ -88,7 +93,7 @@ section {
     background: var(--secundaria);
 }
 
-.inicio{
+.inicio {
     background: url(../imagens/);
 }
 
@@ -98,8 +103,9 @@ section {
     padding-right: 4.5rem;
     margin-top: 1.5rem;
     height: 45vh;
-   
+
 }
+
 /* INICIO BARRA DE MENU */
 
 
@@ -118,7 +124,7 @@ section {
 }
 
 .topo .topo-1 .logo i {
-    color: var(--roxo1);
+    color: var(--topo-icon);
     font-size: 2.2rem;
 }
 
@@ -154,7 +160,7 @@ section {
 }
 
 .topo .topo-1 .icons div,
-.topo .topo-1 .icons a{
+.topo .topo-1 .icons a {
 
     font-size: 2.5rem;
     margin-left: 1.5rem;
@@ -170,6 +176,7 @@ section {
 #botao-pesquisar {
     display: none;
 }
+
 /* FIM TOPO-1 */
 
 
@@ -192,7 +199,7 @@ section {
 
 .topo .topo-2 .menu-nav a:hover {
     background: var(--secundaria);
-    
+
 }
 
 .topo .topo-2 .active {
@@ -202,6 +209,7 @@ section {
     right: 0;
     z-index: 1000;
 }
+
 /* FIM TOPO-2 */
 
 
@@ -226,6 +234,7 @@ section {
 .barra-menu a:hover {
     background: var(--secundaria);
 }
+
 /* FIM BARRA-MENU */
 
 
@@ -319,6 +328,7 @@ section {
     color: var(--titulo);
     cursor: pointer;
 }
+
 /* FIM LOGIN-FORM */
 
 
@@ -435,6 +445,7 @@ section {
     background: var(--principal);
     color: #fff;
 }
+
 /* FINAL SECTION PRODUTOS  */
 
 
@@ -446,7 +457,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
+
 }
 
 .news form {
@@ -472,6 +483,7 @@ section {
     border-radius: .5rem;
     text-transform: none;
 }
+
 /* FINAL SECTION NEWS */
 
 
@@ -533,13 +545,13 @@ section {
     padding-top: 1rem;
 }
 
-.ofertas .ofertas-slider .box .conteudo .preco span{
+.ofertas .ofertas-slider .box .conteudo .preco span {
     font-size: 1.5rem;
     color: var(--titulo);
     text-decoration: line-through;
 }
 
-.desconto{
+.desconto {
     position: absolute;
     background: var(--principal);
     color: #fff;
@@ -548,7 +560,7 @@ section {
     border-radius: .5rem;
     left: .20rem;
     top: 1rem;
-    
+
 }
 
 
@@ -572,12 +584,13 @@ section {
     background: var(--principal);
     color: #fff;
 }
+
 /* FINAL SECTION OFERTAS  */
 
 
 /* COMEÇO SECTION MARCAS  */
 
-.marcas{
+.marcas {
     background-color: rgb(226, 222, 222);
 }
 
@@ -591,6 +604,7 @@ section {
     padding: .5rem 2rem;
     background: rgb(226, 222, 222);
 }
+
 /* FINAL SECTION MARCAS  */
 
 
@@ -670,64 +684,91 @@ section {
     background: var(--principal);
     color: #fff;
 }
+
 /* FINAL SECTION PRODUTOS  */
 
 
 
 /* COMEÇO SECTION FOOTER  */
 
-.footer .box-container{
+.footer .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
 }
 
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
     font-size: 2.2rem;
     color: var(--principal);
     padding: 1rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
     display: block;
     font-size: 1.4rem;
     color: var(--principal);
     padding: 1rem 0;
 }
 
-.footer .box-container .box a i{
+.footer .box-container .box a i {
     color: var(--secundaria);
     padding-right: .5rem;
 }
 
-.footer .box-container .box a:hover i{
+.footer .box-container .box a:hover i {
     padding-right: 2rem;
 }
 
-.footer .box-container .box-pagamento h3{
+.footer .box-container .box-pagamento h3 {
     font-size: 2.2rem;
     color: var(--principal);
     padding: 1rem 0;
 }
 
-.footer .box-container .box-pagamento i{
+.footer .box-container .box-pagamento i {
     font-size: 2.2rem;
-    color: var(--secundaria);
+    /* color: var(--secundaria); */
     padding-right: 2.5rem;
 }
 
-.footer .redes-social h3{
+#visa {
+  color: #0e58ea;
+    width: 0;
+}
+
+#master {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 226, 0, 1) 100%);
+    color: #000000;
+    width: 0;
+    height: 2rem;
+}
+
+#pix{
+    width: 0;
+    color: #12881a;
+}
+
+#paypal{
+    width: 0;
+    color: #ffffff;
+    background: blue;
+    /* background: rgb(0,14,255);
+background: linear-gradient(90deg, rgba(0,14,255,1) 0%, rgba(73,190,255,1) 100%); */
+}
+
+.footer .redes-social h3 {
     font-size: 2.2rem;
     color: var(--principal);
     padding: 3rem 0;
 }
 
-.footer .redes-social{
+.footer .redes-social {
     padding: 10rem 0;
     text-align: center;
 }
 
-.footer .redes-social a{
+.footer .redes-social a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -738,11 +779,11 @@ section {
     border-radius: 50%;
 }
 
-.footer .redes-social a:hover{
+.footer .redes-social a:hover {
     background: var(--principal);
 }
 
-.footer .creditos{
+.footer .creditos {
     border-top: var(--border);
     margin-top: 2rem;
     padding: 0 1rem;
@@ -752,17 +793,19 @@ section {
     text-align: center;
 }
 
-.footer .creditos span{
+.footer .creditos span {
     color: var(--principal);
 }
+
 /* FINAL SECTION FOOTER  */
 
 
 /* INICIO CARREGAMENTO DA PÁGINA  */
 
-.loader-container{
+.loader-container {
     position: fixed;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     z-index: 10000;
@@ -772,13 +815,14 @@ section {
     justify-content: center;
 }
 
-.loader-container.active{
+.loader-container.active {
     display: none;
 }
 
-.loader-container img{
+.loader-container img {
     height: 10rem;
 }
+
 /* FIM CARREGAMENTO DA PÁGINA  */
 
 
@@ -801,8 +845,8 @@ section {
     .banner-slider img {
         width: 100%;
         height: 100%;
-        margin-top: 2rem;   
-    }    
+        margin-top: 2rem;
+    }
 }
 
 
@@ -823,27 +867,28 @@ section {
         display: block;
     }
 
-   
+
     #botao-pesquisar {
         display: inline-block;
     }
 
- 
+
     .topo .topo-1 {
         box-shadow: var(--box-shadow);
         position: relative;
     }
 
-  
+
     .topo .topo-1 .form-pesquisa {
         position: absolute;
-        top: -115%; right: 2rem;
+        top: -115%;
+        right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
     }
 
 
-    .topo .topo-1 .form-pesquisa.active{
+    .topo .topo-1 .form-pesquisa.active {
         top: 115%;
     }
 
@@ -855,11 +900,12 @@ section {
 
     .banner-slider img {
         width: 100%;
-        height: 100%;;
+        height: 100%;
+        ;
         margin-top: 2rem;
     }
 
-    .desconto{
+    .desconto {
         position: absolute;
         background: var(--principal);
         color: #fff;
@@ -891,12 +937,12 @@ section {
         margin-top: 2rem;
     }
 
-    .footer .redes-social{
+    .footer .redes-social {
         padding: 1rem 0;
         text-align: center;
     }
 
-    .footer .creditos{
+    .footer .creditos {
         border-top: var(--border);
         margin-top: 1rem;
         padding: 0 5rem;
