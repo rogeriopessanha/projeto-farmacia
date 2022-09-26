@@ -46,10 +46,8 @@ function loader(){
 }
 
 function fadeOut(){
-    setTimeout(loader, 100);
+    setTimeout(loader, 4000);
 }
-
-
 
 
 var swiper = new Swiper(".banner-slider", {
