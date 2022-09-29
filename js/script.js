@@ -79,8 +79,8 @@ var swiper = new Swiper(".produtos-slider", {
             slidesPerView: 1,
         },
         
-        400: {
-            slidesPerView: 2,
+        450: {
+            slidesPerView: 1,
         },
         768: {
             slidesPerView: 4,
@@ -111,8 +111,8 @@ var swiper = new Swiper(".ofertas-slider", {
             slidesPerView: 1,
         },
         
-        400: {
-            slidesPerView: 2,
+        450: {
+            slidesPerView: 1,
         },
         768: {
             slidesPerView: 4,
@@ -139,7 +139,7 @@ var swiper = new Swiper(".marcas-slider", {
     // },
     breakpoints: {
         0: {
-            slidesPerView: 2,
+            slidesPerView: 3,
         },
         
         450: {
@@ -176,8 +176,8 @@ var swiper = new Swiper(".novidades-slider", {
             slidesPerView: 1,
         },
         
-        400: {
-            slidesPerView: 2,
+        450: {
+            slidesPerView: 1,
         },
         768: {
             slidesPerView: 4,
