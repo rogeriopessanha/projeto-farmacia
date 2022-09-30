@@ -102,7 +102,7 @@ section {
     height: 100%;
     padding-right: 4.5rem;
     margin-top: 1.5rem;
-    height: 45vh;
+    height: 25vh;
 
 }
 
@@ -595,7 +595,7 @@ section {
 }
 
 .marcas .marcas-slider .box .image img {
-    height: 15rem;
+    height: 10rem;
 }
 
 .marcas .titulo span {
