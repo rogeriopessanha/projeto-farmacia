@@ -65,7 +65,7 @@ var swiper = new Swiper(".produtos-slider", {
     spaceBetween: 15,
     loop: true,
     centeredSlides: true,
-    // grabCursor: 'true',
+    grabCursor: 'true',
     autoplay: {
         delay: 6500,
         disableOnInteraction: false,
@@ -100,7 +100,7 @@ var swiper = new Swiper(".ofertas-slider", {
     spaceBetween: 15,
     loop: true,
     centeredSlides: true,
-    // grabCursor: 'true',
+    grabCursor: 'true',
     autoplay: {
         delay: 6500,
         disableOnInteraction: false,
@@ -176,7 +176,7 @@ var swiper = new Swiper(".novidades-slider", {
     spaceBetween: 15,
     loop: true,
     centeredSlides: true,
-    // grabCursor: 'true',
+    grabCursor: 'true',
     autoplay: {
         delay: 6500,
         disableOnInteraction: false,
