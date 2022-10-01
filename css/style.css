@@ -10,16 +10,20 @@
     /* cor principal do site */
     --principal: #0e58ea;
 
-
-    /* cor do secundaria do site */
+    /* cor secundaria do site */
     --secundaria: #19b0ec;
-
 
     /* cor do titulo site */
     --titulo: #000000;
-
+    
     /* cor do subtitulo site */
     --subtitulo: #626262;
+    
+    /* cor do icone */
+    --icon:#0e71ea;
+
+    /* cor do hover icone */
+    --icon-hover: #e80808;
 
     /* cor do icone topo */
     --topo-icon: #e80808;
@@ -129,7 +133,7 @@ section {
 }
 
 .topo .topo-1 .form-pesquisa {
-    width: 50rem;
+    width: 40rem;
     height: 5rem;
     border: var(--border);
     overflow: hidden;
@@ -194,7 +198,7 @@ section {
     color: #fff;
     display: inline-block;
     padding: 1.2rem;
-    font-size: 1.7rem;
+    font-size: 2.2rem;
 }
 
 .topo .topo-2 .menu-nav a:hover {
@@ -350,18 +354,19 @@ section {
 
 .icons-container .icons i {
     font-size: 3.5rem;
-    color: var(--principal);
+    color: var(--icon);
 }
 
 .icons-container .icons h3 {
     font-size: 2.2rem;
-    color: var(--secundaria);
+    color: var(--titulo);
     padding-bottom: .5rem;
 }
 
 .icons-container .icons p {
     font-size: 1.4rem;
     color: var(--titulo);
+    font-weight: 600;
 }
 
 /* FINAL SECTION ICONS */
@@ -395,16 +400,16 @@ section {
 }
 
 .produtos .produtos-slider .box .icons a {
-    color: var(--principal);
+    color: var(--icon);
     font-size: 2.4rem;
     padding: .1rem;
     position: absolute;
-    right: .1rem;
+    right: 1rem;
 }
 
 .produtos .produtos-slider .box .icons a:hover {
     background: var(#fff);
-    color: var(--secundaria);
+    color: var(--icon-hover);
     border: var(--border-hover);
 }
 
@@ -519,12 +524,12 @@ section {
     font-size: 2.4rem;
     padding: .1rem;
     position: absolute;
-    right: .1rem;
+    right: 1rem;
 }
 
 .ofertas .ofertas-slider .box .icons a:hover {
     background: var(#fff);
-    color: var(--secundaria);
+    color: var(--icon-hover);
     border: var(--border-hover);
 }
 
@@ -639,12 +644,12 @@ section {
     font-size: 2.4rem;
     padding: .1rem;
     position: absolute;
-    right: .1rem;
+    right: 1rem;
 }
 
 .novidades .novidades-slider .box .icons a:hover {
     background: var(#fff);
-    color: var(--secundaria);
+    color: var(--icon-hover);
     border: var(--border-hover);
 }
 
