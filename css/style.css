@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Sriracha&display=swap');
 
 :root {
@@ -7,27 +9,15 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 
 
-    /* cor principal do site */
     --principal: #0e58ea;
-
-    /* cor secundaria do site */
     --secundaria: #19b0ec;
 
-    /* cor do titulo site */
     --titulo: #000000;
-    
-    /* cor do subtitulo site */
     --subtitulo: #626262;
-    
-    /* cor do icone */
+
     --icon:#0e71ea;
-
-    /* cor do hover icone */
     --icon-hover: #e80808;
-
-    /* cor do icone topo */
     --topo-icon: #e80808;
-
 }
 
 * {
@@ -101,6 +91,8 @@ section {
     background: url(../imagens/);
 }
 
+
+/* COMEÇO BANNER */
 .banner-slider img {
     width: 100%;
     height: 100%;
@@ -109,10 +101,10 @@ section {
     height: 35vh;
 
 }
+/* FINAL BANNER */
 
-/* INICIO BARRA DE MENU */
 
-
+/* COMEÇO BARRA DE MENU */
 .topo .topo-1 {
     background: #fff;
     padding: 1.5rem 12%;
@@ -180,12 +172,10 @@ section {
 #botao-pesquisar {
     display: none;
 }
+/* FINAL TOPO-1 */
 
-/* FIM TOPO-1 */
 
-
-/* INICIO TOPO-2 */
-
+/* COMEÇO TOPO-2 */
 .topo .topo-2 {
     background: var(--principal);
 }
@@ -213,11 +203,10 @@ section {
     right: 0;
     z-index: 1000;
 }
+/* FINAL TOPO-2 */
 
-/* FIM TOPO-2 */
 
-
-/* INICIO BARRA-MENU */
+/* COMEÇO BARRA-MENU */
 .barra-menu {
     text-align: center;
     background: var(--principal);
@@ -238,11 +227,10 @@ section {
 .barra-menu a:hover {
     background: var(--secundaria);
 }
+/* FINAL BARRA-MENU */
 
-/* FIM BARRA-MENU */
 
-
-/* INICIO LOGIN-FORM */
+/* COMEÇO LOGIN-FORM */
 .login-form-container {
     display: flex;
     align-items: center;
@@ -332,13 +320,10 @@ section {
     color: var(--titulo);
     cursor: pointer;
 }
-
-/* FIM LOGIN-FORM */
-
+/* FINAL LOGIN-FORM */
 
 
 /* COMEÇO SECTION ICONS */
-
 .icons-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -368,13 +353,10 @@ section {
     color: var(--titulo);
     font-weight: 600;
 }
-
 /* FINAL SECTION ICONS */
 
 
-
 /* COMEÇO SECTION PRODUTOS  */
-
 .produtos .produtos-slider .box {
     margin: 1rem 0;
     position: relative;
@@ -392,8 +374,6 @@ section {
     padding: 1rem;
     background: linear-gradient(35deg, #eee 30%, #fff 30.1%);
 }
-
-
 
 .produtos .produtos-slider .box .image img {
     height: 15rem;
@@ -429,7 +409,6 @@ section {
     padding-top: 1rem;
 }
 
-
 .produtos .produtos-slider .swiper-button-next,
 .produtos .produtos-slider .swiper-button-prev {
     border: var(--border-hover);
@@ -450,13 +429,10 @@ section {
     background: var(--principal);
     color: #fff;
 }
-
 /* FINAL SECTION PRODUTOS  */
 
 
-
 /* COMEÇO SECTION NEWS */
-
 .news {
     background: url(../imagens/banner/newsletter.jpg) no-repeat;
     background-size: cover;
@@ -488,13 +464,10 @@ section {
     border-radius: .5rem;
     text-transform: none;
 }
-
 /* FINAL SECTION NEWS */
 
 
-
 /* COMEÇO SECTION OFERTAS  */
-
 .ofertas .ofertas-slider .box {
     margin: 1rem 0;
     position: relative;
@@ -568,7 +541,6 @@ section {
 
 }
 
-
 .ofertas .ofertas-slider .swiper-button-next,
 .ofertas .ofertas-slider .swiper-button-prev {
     border: var(--border-hover);
@@ -589,12 +561,10 @@ section {
     background: var(--principal);
     color: #fff;
 }
-
 /* FINAL SECTION OFERTAS  */
 
 
 /* COMEÇO SECTION MARCAS  */
-
 .marcas {
     background-color: rgb(226, 222, 222);
 }
@@ -609,13 +579,11 @@ section {
     padding: .5rem 2rem;
     background: rgb(226, 222, 222);
 }
-
 /* FINAL SECTION MARCAS  */
 
 
 
 /* COMEÇO SECTION PRODUTOS  */
-
 .novidades .novidades-slider .box {
     margin: 1rem 0;
     position: relative;
@@ -689,13 +657,10 @@ section {
     background: var(--principal);
     color: #fff;
 }
-
 /* FINAL SECTION PRODUTOS  */
 
 
-
 /* COMEÇO SECTION FOOTER  */
-
 .footer .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -799,12 +764,11 @@ section {
 .footer .creditos span {
     color: var(--principal);
 }
-
 /* FINAL SECTION FOOTER  */
 
 
-/* INICIO CARREGAMENTO DA PÁGINA  */
 
+/* COMEÇO CARREGAMENTO DA PÁGINA  */
 .loader-container {
     position: fixed;
     top: 0;
@@ -825,8 +789,7 @@ section {
 .loader-container img {
     height: 10rem;
 }
-
-/* FIM CARREGAMENTO DA PÁGINA  */
+/* FINAL CARREGAMENTO DA PÁGINA  */
 
 
 

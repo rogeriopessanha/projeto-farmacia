@@ -18,7 +18,6 @@ document.querySelector('#close-login-btn').onclick = () => {
 }
 
 
-
 window.onscroll = () => {
 
     pesquisaForm.classList.remove('active');
