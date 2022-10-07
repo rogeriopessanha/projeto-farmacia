@@ -898,10 +898,9 @@ section {
     }
 
     .banner-slider img {
-        width: 100%;
+        width: 110%;
         height: 18rem;
         margin-top: 2rem;
-        padding-left: 3rem;
     }
 
     .footer .redes-social {
