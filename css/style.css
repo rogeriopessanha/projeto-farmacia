@@ -894,13 +894,14 @@ section {
     .topo .topo-1 .form-pesquisa.active {
         top: 115%;
         left: 0;
-        width: 80%;
+        width: 100%;
     }
 
     .banner-slider img {
         width: 100%;
-        height: 100%;
+        height: 18rem;
         margin-top: 2rem;
+        padding-left: 3rem;
     }
 
     .footer .redes-social {
