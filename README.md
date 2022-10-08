@@ -1,5 +1,7 @@
 # projeto-farmacia
 
+- Link para o projeto: [Projeto farmacia](https://rogeriopessanha.github.io/projeto-farmacia/)
+
 # Sobre o projeto
 
 Projeto de uma página web de uma farmacia, site com uma interface intuitiva e de agradável navegação.
