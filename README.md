@@ -7,11 +7,13 @@ Site responsivo, funcionando tanto em desktop, tablet e mobile.
 
 # Funcionamento do projeto
 
-## Layout web
+
+## Layout mobile
 
 <h1 align="center">
-  <img width="900px" height="550px" src="https://github.com/rogeriopessanha/projeto-farmacia/blob/main/imagens/readme-info/responsivo1024px.gif" />
+  <img  height="550px" src="https://github.com/rogeriopessanha/projeto-farmacia/blob/main/imagens/readme-info/responsivo320px.gif" />
 </h1>
+
 
 ## Layout tablet
 
@@ -19,11 +21,13 @@ Site responsivo, funcionando tanto em desktop, tablet e mobile.
   <img width="500px" height="550px" src="https://github.com/rogeriopessanha/projeto-farmacia/blob/main/imagens/readme-info/responsivo768px.gif" />
 </h1>
 
-## Layout mobile
+
+## Layout web
 
 <h1 align="center">
-  <img  height="550px" src="https://github.com/rogeriopessanha/projeto-farmacia/blob/main/imagens/readme-info/responsivo320px.gif" />
+  <img width="900px" height="550px" src="https://github.com/rogeriopessanha/projeto-farmacia/blob/main/imagens/readme-info/responsivo1024px.gif" />
 </h1>
+
 
 # Tecnologias utilizadas
 
