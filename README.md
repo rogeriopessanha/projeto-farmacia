@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Projeto de uma página web de uma farmacia, site com uma interface intuitiva e de agradável navegação.
+Projeto de uma página web de uma farmacia, site com uma interface intuitiva e de agradável navegação.</br>
 Site responsivo, funcionando tanto em desktop, tablet e mobile.
 
 # Funcionamento do projeto
