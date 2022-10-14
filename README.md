@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Projeto de uma página web de uma farmacia, site com uma interface intuitiva e de agradável navegação.
+Projeto de uma página web de uma farmacia, site com uma interface intuitiva e de agradável navegação.</br>
 Site responsivo, funcionando tanto em desktop, tablet e mobile.
 
 # Funcionamento do projeto
@@ -24,7 +24,7 @@ Site responsivo, funcionando tanto em desktop, tablet e mobile.
 </h1>
 
 
-## Layout web
+## Layout desktop
 
 <h1 align="center">
   <img width="900px" height="550px" src="https://github.com/rogeriopessanha/projeto-farmacia/blob/main/imagens/readme-info/responsivo1024px.gif" />
