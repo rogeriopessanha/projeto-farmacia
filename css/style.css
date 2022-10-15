@@ -799,8 +799,11 @@ section {
     bottom: 3rem;
     right: 3rem;
     z-index: 1000;
+}
 
-
+.whats img{
+    width: 5rem;
+    border-radius: 50%;
 }
 
 /* WHATSAPP */
@@ -934,10 +937,11 @@ section {
 
     .whats{
         position: fixed;
-        bottom: 3rem;
-        right: 3rem;
+        bottom: 1rem;
+        right: 2rem;
         z-index: 1000;
-    
-    
+    }
+    .whats img{
+        width: 4rem;
     }
 }
