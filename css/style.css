@@ -931,4 +931,14 @@ section {
         color: var(--secundaria);
         text-align: center;
     }
+
+    .whats{
+        position: fixed;
+        bottom: 1rem;
+        right: .1rem;
+        z-index: 1000;
+        width: 40px;
+    
+    
+    }
 }
