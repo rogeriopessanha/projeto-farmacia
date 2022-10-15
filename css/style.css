@@ -794,7 +794,14 @@ section {
 
 
 /* WHATSAPP */
+.whats{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 1000;
 
+
+}
 
 /* WHATSAPP */
 
