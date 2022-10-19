@@ -87,11 +87,6 @@ section {
     background: var(--secundaria);
 }
 
-.inicio {
-    background: url(../imagens/);
-}
-
-
 /* COMEÇO BANNER */
 .banner-slider img {
     width: 100%;
